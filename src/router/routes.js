@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import HomeLayout from '../layouts/HomeLayout';
 import GuestGuard from '../guards/GuestGuard';
 import UserGuard from '../guards/UserGuard';
 import Dashboard from '../pages/Dashboard';
@@ -8,8 +9,13 @@ import { PATHS } from './paths';
 
 export const routes = role => [
   {
-    index: true,
-    element: <Home />
+    path: '/',
+    element: (
+      <HomeLayout>
+        <Outlet />
+      </HomeLayout>
+    ),
+    children: [{ index: true, element: <Home /> }]
   },
   {
     path: PATHS.REGISTER.PATH,

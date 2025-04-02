@@ -1,5 +1,5 @@
+import MainLayout from './layouts/MainLayout';
 import Router from './router';
-import MainLayout from './components/MainLayout';
 
 const App = () => {
   return (
