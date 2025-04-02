@@ -1,5 +1,12 @@
+import Router from './router';
+import MainLayout from './components/MainLayout';
+
 const App = () => {
-  return <h1>moaamla-app</h1>;
+  return (
+    <MainLayout>
+      <Router />
+    </MainLayout>
+  );
 };
 
 export default App;
