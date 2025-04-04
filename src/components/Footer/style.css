@@ -1,0 +1,11 @@
+/**Footer Styles*/
+.footer {
+    background-color: var(--color-blue-dark2);
+    background-image: url(../../../public/assets/images/hero-bg.png);
+    background-position: center left;
+    padding-block: 3rem 1rem;
+}
+
+.copyright a {
+    color: var(--color-green);
+}

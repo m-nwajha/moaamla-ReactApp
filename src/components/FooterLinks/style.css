@@ -1,0 +1,30 @@
+.footer_links {
+    margin-bottom: 30px;
+}
+
+.footer_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 9px;
+
+}
+
+.footer_links ul li {
+    padding: 8px 0;
+}
+
+.footer_links ul li:first-child {
+    padding-top: 0;
+}
+
+.footer_links ul a {
+    color: var(--bs-white);
+    transition: 0.5s;
+    padding-right: 0px;
+}
+
+.footer_links ul a:hover {
+    color: var(--color-light);
+    padding-right: 8px;
+}

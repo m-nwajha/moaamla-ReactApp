@@ -1,0 +1,36 @@
+.footer .footer-contact {
+    margin-bottom: 30px;
+}
+
+.footer .footer-contact p {
+    line-height: 26px;
+}
+
+.footer .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-contact ul li {
+    padding: 8px 0;
+}
+
+.footer .footer-contact ul li:first-child {
+    padding-top: 0;
+}
+
+.footer .footer-contact ul a {
+    color: var(--bs-white);
+    transition: 0.5s;
+    padding-right: 0px;
+}
+
+.footer .footer-contact ul a:hover {
+    color: var(--color-light);
+}
+
+.footer .footer-contact ul a>i {
+    color: var(--color-green);
+    margin-left: 0.2rem;
+}
