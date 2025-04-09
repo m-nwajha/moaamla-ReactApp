@@ -1,0 +1,35 @@
+/** nav btns styles*/
+
+
+.login__btn {
+    background-color: var(--color-blue-dark);
+    color: var(--bs-white);
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid var(--color-blue-dark);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.login__btn:hover {
+    background-color: transparent;
+    color: var(--color-blue-dark);
+}
+
+.logout__btn {
+    color: var(--color-green);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 1rem;
+    border: 1px solid var(--color-green);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.logout__btn:hover {
+    background-color: var(--color-green);
+    color: var(--bs-white);
+}
