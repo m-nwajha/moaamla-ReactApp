@@ -1,0 +1,15 @@
+/** Hero Styles */
+#hero {
+    padding-block: 10.5rem 6rem;
+    background-image: url(../../../public/assets/images/hero-bg.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+
+    #hero {
+        padding-block: 6.5rem 2rem;
+    }
+}

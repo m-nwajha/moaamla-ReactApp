@@ -1,0 +1,17 @@
+/** Search Hero Styles */
+.search__hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+@media (max-width: 767px) {
+    .search__hero {
+        display: block;
+    }
+
+    .search__hero button {
+        margin-top: 1rem;
+    }
+}
