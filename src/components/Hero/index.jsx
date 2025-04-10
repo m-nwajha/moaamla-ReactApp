@@ -11,7 +11,7 @@ import { Body1, H1, H2 } from '../Typography';
 import SearchHero from '../SearchHero';
 
 // Import Hero Constants Data
-import { HERO_DATA } from '../../constants/HERO_DATA';
+import { HERO_DATA } from '../../constants/HOME_PAGE_DATA';
 
 // Import Style css
 import './style.css';
