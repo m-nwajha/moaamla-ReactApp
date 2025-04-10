@@ -1,0 +1,39 @@
+/** btns styles */
+
+/** btn green */
+.btn_green {
+    background-color: var(--color-green);
+    color: var(--bs-white);
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    margin-right: 1rem;
+    border: 1px solid var(--color-green);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn_green:hover {
+    background-color: var(--color-light);
+    color: var(--color-green);
+    border: 1px solid var(--color-green);
+}
+
+
+/** btn blue */
+.btn_blue {
+    background-color: var(--color-blue-dark);
+    color: var(--bs-white);
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.4rem 1.8rem;
+    font-weight: 500;
+    margin-left: 1.3rem;
+    border: 1px solid var(--color-blue-dark);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn_blue:hover {
+    background-color: var(--color-light);
+    color: var(--color-blue-dark);
+}
