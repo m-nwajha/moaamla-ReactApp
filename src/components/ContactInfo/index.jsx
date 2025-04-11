@@ -1,10 +1,10 @@
-import { FooterH4 } from '../Typography';
+import { FooterH5 } from '../Typography';
 import { CONTACT_INFO } from '../../constants/CONTACT_INFO';
 import './style.css'
 const ContactInfo = () => {
   return (
     <>
-      <FooterH4>{CONTACT_INFO.title}</FooterH4>
+      <FooterH5>{CONTACT_INFO.title}</FooterH5>
       <ul>
         {CONTACT_INFO.item.map((contactItem)=>{
             return (

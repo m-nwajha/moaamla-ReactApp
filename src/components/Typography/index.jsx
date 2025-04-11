@@ -35,6 +35,51 @@ export const H6 = ({ children, className = '' }) => {
   return <h6 className={`t_h6 ${className}`}>{children}</h6>;
 };
 
+
+/****
+ * Paragraphs *
+ *****/
+
+// Handel Body1 Component
+export const Body1 = ({ children, className = '' }) => {
+  return <p className={`t_body1 ${className}`}>{children}</p>;
+};
+
+// Handel Body2 Component
+export const Body2 = ({ children, className = '' }) => {
+  return <p className={`t_body2 ${className}`}>{children}</p>;
+};
+
+// Handel Body3 Component
+export const Body3 = ({ children, className = '' }) => {
+  return <p className={`t_body3 ${className}`}>{children}</p>;
+};
+
+
+/****
+ * Span *
+ *****/
+
+// Handel Span1 Component
+export const Span1 = ({ children, className = '' }) => {
+  return <span className={`t_span1 ${className}`}>{children}</span>;
+};
+
+// Handel Span2 Component
+export const Span2 = ({ children, className = '' }) => {
+  return <span className={`t_span2 ${className}`}>{children}</span>;
+};
+
+// Handel Span3 Component
+export const Span3 = ({ children, className = '' }) => {
+  return <span className={`t_span3 ${className}`}>{children}</span>;
+};
+
+
+/****
+ * Custom Typography *
+ *****/
+
 // Handel H2WhiteBlue Component
 export const H2WhiteBlue = ({
   children,
@@ -50,31 +95,17 @@ export const H2WhiteBlue = ({
 
   return (
     <div className={`h2_white__blue ${className}`}>
-      <h2>
+      <H2>
         {splitArrOfText.map((textItem)=>{
           return `${textItem} `;
         })}
         <span>{popArrOfText}</span>
-      </h2>
+      </H2>
     </div>
   );
 };
 
-// Handel Footer H4 Component
-export const FooterH4 = ({ children, className = '' }) => {
-  return <h4 className={`footer_h4 ${className}`}>{children}</h4>;
-};
-
-/****
- * Paragraphs *
- *****/
-
-// Handel Body1 Component
-export const Body1 = ({ children, className = '' }) => {
-  return <p className={`t_body1 ${className}`}>{children}</p>;
-};
-
-// Handel Body2 Component
-export const Body2 = ({ children, className = '' }) => {
-  return <p className={`t_body2 ${className}`}>{children}</p>;
+// Handel Footer H5 Component
+export const FooterH5 = ({ children, className = '' }) => {
+  return <H5 className={`footer_h5 ${className}`}>{children}</H5>;
 };
