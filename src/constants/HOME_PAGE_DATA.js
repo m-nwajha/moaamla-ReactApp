@@ -8,3 +8,13 @@ export const HERO_DATA = {
   btn: 'البحث الآن',
   img: 'assets/images/hero-img.png'
 };
+
+// Last Services Data
+
+export const LAST_SERVICES = {
+  title: 'جديد خدماتنا',
+  servicesItem: {
+    time: 'الوقت المستغرق تقريباً:',
+    btnLabel: 'إبدأ الخدمة الآن'
+  }
+};

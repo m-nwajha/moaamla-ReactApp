@@ -1,0 +1,6 @@
+/**Serves styles*/
+#serv {
+    background-color: var(--color-green);
+    background-image:url(../../../public/assets/images/bg-serv.png);
+    padding-block: 5rem;
+}

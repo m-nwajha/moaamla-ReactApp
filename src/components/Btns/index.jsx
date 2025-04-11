@@ -55,3 +55,29 @@ export const BtnBlue = ({
     </button>
   );
 };
+
+/****
+ * Btn Blue Sm Component *
+ *****/
+export const BtnBlueSm = ({
+  // Children(Label) Prop.
+  children,
+
+  // On Click Prop.
+  onClick,
+
+  // Class Name Prop.
+  className = '',
+
+  // If passing 'reset' Prop Btn Type Reset, else Btn Type Default Submit.
+  reset
+}) => {
+  return (
+    <button
+      className={`btn_blue__sm ${className}`}
+      onClick={onClick}
+      type={reset ? 'reset' : 'submit'}>
+      {children}
+    </button>
+  );
+};

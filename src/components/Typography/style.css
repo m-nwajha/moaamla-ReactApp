@@ -99,37 +99,37 @@
     /** h1 */
     .t_h1 {
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 2.3rem;
     }
 
     /** h2 */
     .t_h2 {
         font-size: 1.8rem;
-        line-height: 1.9rem;
+        line-height: 2.2rem;
     }
 
     /** h3 */
     .t_h3 {
         font-size: 1.6rem;
-        line-height: 1.8rem;
+        line-height: 2rem;
     }
 
     /** h4 */
     .t_h4 {
         font-size: 1.3rem;
-        line-height: 1.5rem;
+        line-height: 1.7rem;
     }
 
     /** h5 */
     .t_h5 {
         font-size: 1.1rem;
-        line-height: 1.2rem;
+        line-height: 1.5rem;
     }
 
     /** h6 */
     .t_h6 {
         font-size: 0.9rem;
-        line-height: 1rem;
+        line-height: 1.3rem;
     }
 
 

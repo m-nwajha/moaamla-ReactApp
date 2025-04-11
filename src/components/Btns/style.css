@@ -37,3 +37,22 @@
     background-color: var(--color-light);
     color: var(--color-blue-dark);
 }
+
+
+/** btn blue */
+.btn_blue__sm {
+    background-color: var(--color-blue-light);
+    color: var(--bs-white);
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    border: 1px solid var(--color-blue-light);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.btn_blue__sm:hover {
+    background-color: var(--color-light);
+    color: var(--color-blue-light);
+    border: 1px solid var(--color-blue-light);
+}
