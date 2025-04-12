@@ -1,0 +1,60 @@
+/** How used Item style */
+#about .card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.about__items {
+    position: relative;
+}
+
+.about__items::after {
+    content: "";
+    position: absolute;
+    top: 93px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 0.4rem dashed #d1ddec;
+}
+
+.about__num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--color-blue-light);
+    color: var(--bs-white);
+    font-size: 4rem;
+    font-weight: 600;
+    outline: 20px solid var(--color-light);
+    margin: 28px;
+}
+
+#about .card-title {
+    font-size: 1.5rem;
+    color: var(--bs-dark);
+}
+
+#about .card-text {
+    color: #6b6b6b;
+}
+
+@media (max-width: 767px) {
+
+    .about__items::after {
+        top: 0;
+        right: 50%;
+        left: 0px;
+        height: 100%;
+        width: auto;
+        z-index: -1;
+        border-right: 0.4rem dashed #d1ddec;
+        border-bottom: none;
+    }
+}

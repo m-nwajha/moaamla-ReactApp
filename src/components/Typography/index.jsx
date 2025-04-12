@@ -35,7 +35,6 @@ export const H6 = ({ children, className = '' }) => {
   return <h6 className={`t_h6 ${className}`}>{children}</h6>;
 };
 
-
 /****
  * Paragraphs *
  *****/
@@ -54,7 +53,6 @@ export const Body2 = ({ children, className = '' }) => {
 export const Body3 = ({ children, className = '' }) => {
   return <p className={`t_body3 ${className}`}>{children}</p>;
 };
-
 
 /****
  * Span *
@@ -75,7 +73,6 @@ export const Span3 = ({ children, className = '' }) => {
   return <span className={`t_span3 ${className}`}>{children}</span>;
 };
 
-
 /****
  * Custom Typography *
  *****/
@@ -91,12 +88,12 @@ export const H2WhiteBlue = ({
 }) => {
   const arrOfText = children;
   const splitArrOfText = arrOfText.split(' ');
-  const popArrOfText = splitArrOfText.pop(-1)
+  const popArrOfText = splitArrOfText.pop(-1);
 
   return (
     <div className={`h2_white__blue ${className}`}>
       <H2>
-        {splitArrOfText.map((textItem)=>{
+        {splitArrOfText.map(textItem => {
           return `${textItem} `;
         })}
         <span>{popArrOfText}</span>
@@ -104,6 +101,32 @@ export const H2WhiteBlue = ({
     </div>
   );
 };
+
+// Handel H2WhiteBlue Component
+export const H2DarkBlue = ({
+  children,
+
+  // Passing Last Word (Underline Blue Color)
+  lastWord,
+
+  className = ''
+}) => {
+  const arrOfText = children;
+  const splitArrOfText = arrOfText.split(' ');
+  const popArrOfText = splitArrOfText.pop(-1);
+
+  return (
+    <div className={`h2_dark__blue ${className}`}>
+      <H2>
+        {splitArrOfText.map(textItem => {
+          return `${textItem} `;
+        })}
+        <span>{popArrOfText}</span>
+      </H2>
+    </div>
+  );
+};
+
 
 // Handel Footer H5 Component
 export const FooterH5 = ({ children, className = '' }) => {
