@@ -1,3 +1,5 @@
+import { PATHS } from '../router/paths';
+
 // Hero Data
 export const HERO_DATA = {
   title: 'معاملة',
@@ -9,7 +11,6 @@ export const HERO_DATA = {
   img: 'assets/images/hero-img.png'
 };
 
-
 // Last Services Data
 export const LAST_SERVICES = {
   title: 'جديد خدماتنا',
@@ -18,7 +19,6 @@ export const LAST_SERVICES = {
     btnLabel: 'إبدأ الخدمة الآن'
   }
 };
-
 
 // How Used Platform
 export const HOW_USED_PLATFORM = {
@@ -42,4 +42,23 @@ export const HOW_USED_PLATFORM = {
       description: 'قم بدفع رسوم الخدمة.'
     }
   ]
+};
+
+
+// About Ads.
+export const ABOUT_ADS = {
+  title: 'منصة معاملة للخدمات وتعقيب المعاملات.',
+  description:
+    'اختيار الاسم للسجل التجاري (الشركة) هو قرار عائد لك كصاحب عمل. إن وزارة التجارة والصناعة وترويج الاستثمار قد حددت قوانين وضوابط بسيطة يجب اتباعها عند اختيار الاسم التجاري، ولكن قبل اختيار الاسم يرجى قراءة القوانين والضوابط التي حددتها وزارة التجارة والصناعة للاسم للتجاري، ثم تأ كد من عدم وجود أسماء مشابهة من “خدمة ”توفر الاسم التجاري',
+  image: '../assets/images/about2-img.png',
+  btns: {
+    btn1: {
+      label: 'تواصل معنا',
+      href: PATHS.CONTACT.PATH
+    },
+    btn2: {
+      label: 'تعلم المزيد',
+      href: PATHS.ABOUT.PATH
+    }
+  }
 };

@@ -1,0 +1,54 @@
+/**About Ads Styles*/
+#about2 {
+    background-color: var(--color-green);
+    background-image: url(../../../public/assets/images/hero-bg.png);
+    background-position: center left;
+    padding-top: 3rem;
+}
+
+
+#about2 .card-text {
+    color: var(--bs-white);
+    text-align: justify;
+}
+
+.about2__btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-block: 2rem;
+}
+
+.more__btn {
+    background-color: var(--color-blue-light);
+    color: var(--bs-white);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    border: 1px solid var(--color-blue-light);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.more__btn:hover {
+    background-color: var(--color-light);
+    color: var(--color-blue-light);
+}
+
+.contact__btn {
+    background-color: var(--color-blue-dark);
+    color: var(--bs-white);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    border: 1px solid var(--color-blue-dark);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.contact__btn:hover {
+    background-color: var(--color-light);
+    color: var(--color-blue-dark);
+}
