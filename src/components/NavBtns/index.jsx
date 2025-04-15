@@ -34,7 +34,7 @@ const NavBtns = () => {
     <div className='d-flex flex-row gap-3 justify-content-center align-items-center'>
       {/** Login & Navigate To My Dashboard Btn */}
       <Link
-        to={PATHS.LOGIN.PATH}
+        to={role === ROLES.guest ? PATHS.LOGIN.PATH : PATHS.DASHBOARD.PATH}
         className='login__btn'>
         {role === ROLES.guest ? 'تسجيل الدخول' : 'لوحة التحكم الخاصة بي'}
       </Link>

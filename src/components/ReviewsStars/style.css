@@ -1,0 +1,6 @@
+/** Star Style */
+.reviews__stars i {
+    color: var(--color-blue-dark);
+    font-size: 1rem;
+    margin-inline: 0.1rem;
+}

@@ -123,6 +123,7 @@ export const H2DarkBlue = ({
         })}
         <span>{popArrOfText}</span>
       </H2>
+      <span></span>
     </div>
   );
 };

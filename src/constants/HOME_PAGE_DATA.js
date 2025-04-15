@@ -44,7 +44,6 @@ export const HOW_USED_PLATFORM = {
   ]
 };
 
-
 // About Ads.
 export const ABOUT_ADS = {
   title: 'منصة معاملة للخدمات وتعقيب المعاملات.',
@@ -61,4 +60,9 @@ export const ABOUT_ADS = {
       href: PATHS.ABOUT.PATH
     }
   }
+};
+
+// Reviews
+export const REVIEWS = {
+  title: 'توصيات عملائنا.'
 };

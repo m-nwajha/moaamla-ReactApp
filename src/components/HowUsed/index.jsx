@@ -16,15 +16,10 @@ const HowUsed = () => {
     <section id='about'>
       <div className='container'>
         {/** Title */}
-        <div className='about__title'>
-          <H2DarkBlue>{HOW_USED_PLATFORM.title}</H2DarkBlue>
-          <span></span>
-        </div>
+        <H2DarkBlue>{HOW_USED_PLATFORM.title}</H2DarkBlue>
 
         {/** Description */}
-        <Body1 className='about__text'>
-          {HOW_USED_PLATFORM.description}
-        </Body1>
+        <Body1 className='about__text'>{HOW_USED_PLATFORM.description}</Body1>
 
         {/** How Used Items */}
         <div className='row gap-3 gap-md-0 justify-content-center about__items'>

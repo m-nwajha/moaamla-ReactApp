@@ -1,0 +1,34 @@
+/** Reviews style */
+#reviews {
+    padding-top: 4rem;
+}
+
+.reviews__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.reviews__title h1 {
+    font-size: 2.5rem;
+    color: var(--bs-dark);
+    text-align: center;
+    font-weight: 500;
+}
+
+.reviews__title>h1>span {
+    color: var(--color-blue-light);
+    text-decoration: underline;
+}
+
+.reviews__title>span {
+    display: inline-block;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    height: 0.5rem;
+    width: 8rem;
+    background-color: var(--color-blue-dark);
+}
+
+.reviews__items {
+    margin-top: 7.5rem;
+}
