@@ -1,0 +1,11 @@
+.register_right {
+    background-color: #0d2639;
+    border-radius: 0px 8px 8px 0px;
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+
+.register_logo {
+    height: 2.2rem;
+    filter: brightness(0) invert(1);
+}

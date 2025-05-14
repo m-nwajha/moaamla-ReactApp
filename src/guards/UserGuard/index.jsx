@@ -1,10 +1,12 @@
 import { Navigate } from 'react-router-dom';
+import { ROLES } from '../../constants/ROLES';
+import { PATHS } from '../../router/paths';
 
 const UserGuard = ({ role, children }) => {
-  if (role === 'guest') {
+  if (role === ROLES.guest) {
     return (
       <Navigate
-        to={'/register'}
+        to={PATHS.LOGIN.PATH}
         replace={true}
       />
     );

@@ -1,0 +1,14 @@
+.register_layout {
+    background-color: #223976;
+    background-image: url(../../../public/assets/images/hero-bg.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 3rem;
+}
+
+.register_layout .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0.200rem 0.200rem -0.200rem rgba(31, 27, 45, .08), 0 0.25rem 0.75rem rgba(31, 27, 45, .08);
+}

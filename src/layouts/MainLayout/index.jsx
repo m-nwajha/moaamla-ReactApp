@@ -1,7 +1,11 @@
-import Footer from '../../components/Footer';
+import AuthContext from '../../context/AuthContext';
 
 const MainLayout = ({ children }) => {
-  return <main>{children}</main>;
+  return (
+    <main>
+      <AuthContext>{children}</AuthContext>
+    </main>
+  );
 };
 
 export default MainLayout;

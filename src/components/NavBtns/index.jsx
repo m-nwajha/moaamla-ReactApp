@@ -17,6 +17,7 @@ const NavBtns = () => {
   // useContextAuth Hook
   const { role, setRole, setToken, setUser } = useContextAuth();
 
+  console.log(role);
   // useNavigate Hook
   const navigate = useNavigate();
 

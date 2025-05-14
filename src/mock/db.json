@@ -1,3 +1,113 @@
 {
-  "api-test": [{ "api-test": "api-test" }]
+  "api-test": [
+    {
+      "api-test": "api-test",
+      "id": "0837"
+    }
+  ],
+  "auth": [
+    {
+      "id": "tsHxP3Ew",
+      "email": "abdQaddora",
+      "password": "Aa123456",
+      "token": "bz_1pGsGwDhDQJy9HmEKw"
+    },
+    {
+      "id": "WNOzVg91",
+      "email": "rygaju15",
+      "password": "Pa$$w0rd!",
+      "token": "kE7RZcJyEK-fR1qJBRh2m"
+    },
+    {
+      "id": "vPK5P1V6",
+      "email": "xokocixece",
+      "password": "Pa$$w0rd!",
+      "token": "eUpsG_Ei0e7_xJgNPu6sD"
+    },
+    {
+      "id": "eG_0RHfY",
+      "email": "xakujiluz",
+      "password": "Pa$$w0rd!",
+      "token": "9CzUAaE7TW_KcYldWRrtP"
+    },
+    {
+      "id": "16e2",
+      "name": "MOHAMMED ELNAWAJHA",
+      "tel": "5148452",
+      "email": "m.nawjha@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0826",
+      "name": "MOHAMMED ELNAWAJHA",
+      "tel": "328502",
+      "email": "adv.moh945@gmail.com",
+      "password": "418284131",
+      "token": "kE7RZcJyEK-fR1qJBRh2m"
+    },
+    {
+      "id": "b51c",
+      "name": "الياس عبد الكريم - موصلي يار",
+      "tel": "52528528",
+      "email": "adv.moh945@gmail.com",
+      "password": "123456",
+      "token": "fR1qJBRh2madv.moh945@gmail.com52528528"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "route": "openC.R",
+      "title": "فتح سجل تجاري جديد",
+      "type": "تجاري",
+      "description": "أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "time": 5,
+      "image": "https://placehold.co/400"
+    },
+    {
+      "id": 2,
+      "route": "openC.R",
+      "title": "فتح سجل تجاري جديد",
+      "type": "تجاري",
+      "description": "أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "time": 5,
+      "image": "https://placehold.co/400"
+
+    },
+    {
+      "id": 3,
+      "route": "openC.R",
+      "title": "فتح سجل تجاري جديد",
+      "type": "تجاري",
+      "description": "أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "time": 5,
+      "image": "https://placehold.co/400"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "MOHAMMED ELNAWAJHA",
+      "job": "Web Developer",
+      "reviewText": "أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "rate": 5,
+      "image": "https://placehold.co/400"
+    },
+    {
+      "id": 2,
+      "name": "MOHAMMED ELNAWAJHA",
+      "job": "Web Developer",
+      "reviewText": "أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "rate": 4,
+      "image": "https://placehold.co/400"
+    },
+    {
+      "id": 3,
+      "name": "MOHAMMED ELNAWAJHA",
+      "job": "Web Developer",
+      "reviewText":"أحببت تجربتي مع موقع معاملة للخدمات والمعاملات! إنها بالفعل أفضل منصة للتعامل الآن. فائدة كبيرة في ً الوقت وسهولة في فهم الإجراءات. شكرا لكم على تقديم خدمة رائعة",
+      "rate": 4,
+      "image": "https://placehold.co/400"
+    }
+  ]
 }

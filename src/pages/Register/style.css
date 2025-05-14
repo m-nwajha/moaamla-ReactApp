@@ -1,0 +1,40 @@
+/**Login Page Styles*/
+
+
+
+.login__page .btn__signup {
+    background-color: var(--color-light);
+    color: var(--color-blue-dark);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    border: 1px solid var(--color-blue-dark);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.login__page .btn__signup:hover {
+    background-color: var(--color-blue-dark);
+    color: var(--bs-white);
+}
+
+.form__login {
+    padding-top: 3rem;
+}
+
+.form__login h1 {
+    font-size: 1.6rem;
+    color: var(--bs-dark);
+    margin-bottom: 1rem;
+}
+
+.form__login h1 span {
+    color: var(--color-green);
+    text-decoration: underline;
+}
+
+.form__login p {
+    color: #737373;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
