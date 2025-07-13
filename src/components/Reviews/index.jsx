@@ -21,7 +21,7 @@ import './style.css';
 
 const Reviews = () => {
   // useAPI Hook.
-  const { get, data } = useAPI(`${API_URL}/reviews`);
+  const { get, data } = useAPI(`${API_URL}/reviews.json`);
 
   // useEffect Hook.
   useEffect(() => {
